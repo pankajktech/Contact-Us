@@ -4,12 +4,21 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    background-color: rgb(0, 255, 255);
     font-family: 'Eczar', serif;
 }
 
+body::before {
+    content: '';
+    background: url(contact.jpg) no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    filter: blur(10px);
+}
+
 .title {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 255, 217);
 }
 
 #contact {
@@ -25,7 +34,6 @@ body {
     background-color: aliceblue;
     width: 60vh;
     text-align: center;
-    border: 3px solid rgb(255, 0, 0);
 }
 
 .name {
@@ -54,7 +62,6 @@ button {
 }
 
 button:hover {
-    /* width: 22vh; */
     background-color: rgb(0, 255, 213);
     cursor: pointer;
     color: rgb(0, 0, 0);
@@ -62,7 +69,6 @@ button:hover {
 }
 
 footer {
-    /* position: ; */
     text-align: center;
     font-size: larger;
 }
