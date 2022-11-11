@@ -35,6 +35,7 @@ body::before {
     background-color: aliceblue;
     width: 60vh;
     text-align: center;
+    box-shadow: 5px 5px 5px, 5px 5px 5px black;
 }
 
 .name {
