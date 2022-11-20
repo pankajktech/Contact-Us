@@ -7,7 +7,7 @@ body {
     font-family: 'Eczar', serif;
 }
 
-body::before {
+/* body::before {
     content: '';
     /* background: url(contact.jpg) no-repeat center center/cover; */
     background:linear-gradient(to right, purple, blue);
@@ -16,7 +16,7 @@ body::before {
     width: 100%;
     height: 100vh;
     /* filter: blur(10px); */
-}
+} */
 
 .title {
     color: rgb(255, 255, 255);
@@ -43,6 +43,7 @@ body::before {
 }
 
 input {
+    border: 2px solid darkred;
     /* border-color: rgb(255, 0, 0); */
     text-align: center;
     width: 35vh;
@@ -50,15 +51,19 @@ input {
 }
 
 textarea {
+    border: 2px solid darkred;
     text-align: center;
+    resize: none;
 }
 
 button {
     width: 15vh;
     height: 5vh;
+    border-radius: 50px;
     background-color: rgb(0, 0, 0);
     cursor: pointer;
     color: rgb(255, 255, 255);
+    font-weight: bolder;
 }
 
 button:hover {
@@ -78,4 +83,31 @@ footer a {
     font-weight: bolder;
     text-decoration: none;
     color: rgb(0, 242, 255);
+}
+
+
+@media screen and (max-width:628px) {
+    body{
+        background: lightpink;
+    }
+
+    .form{
+        background: none;
+        box-shadow: none;
+    }
+
+    input, textarea{
+        width: 300px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: larger;
+        color: rgb(0, 0, 0);
+    }
+    footer a {
+        font-weight: bolder;
+        text-decoration: none;
+        color: rgb(255, 21, 0);
+    }
 }
