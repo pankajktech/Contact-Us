@@ -21,9 +21,8 @@ body {
 }
 
 .form {
-    padding: 20px 0;
+    padding: 20px;
     background-color: aliceblue;
-    width: 60vh;
     text-align: center;
     box-shadow: 5px 5px 5px, 5px 5px 5px black;
 }
@@ -37,7 +36,7 @@ input {
     /* border-color: rgb(255, 0, 0); */
     text-align: center;
     width: 400px;
-    height: 4vh;
+    height: 20px;
 }
 
 textarea {
