@@ -32,7 +32,7 @@ body {
 }
 
 input {
-    border: 2px solid darkred;
+    border: 2px solid rgb(0, 8, 255);
     /* border-color: rgb(255, 0, 0); */
     text-align: center;
     width: 400px;
@@ -41,7 +41,7 @@ input {
 
 textarea {
     width: 400px;
-    border: 2px solid darkred;
+    border: 2px solid rgb(0, 8, 255);
     text-align: center;
     resize: none;
 }
@@ -51,7 +51,7 @@ button {
     width: 53vh;
     height: 5vh;
     /* border-radius: 50px; */
-    background-color: darkred;
+    background-color: rgb(0, 8, 255);
     cursor: pointer;
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -84,7 +84,7 @@ button:hover {
     }
 
     button{
-        width: 300px ;
+        width: 300px;
     }
 
 }
