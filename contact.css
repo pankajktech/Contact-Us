@@ -32,7 +32,7 @@ body {
 }
 
 input {
-    border: 2px solid rgb(153, 153, 173);
+    border: 2px solid rgb(111, 111, 134);
     /* border-color: rgb(255, 0, 0); */
     text-align: center;
     width: 400px;
@@ -41,7 +41,7 @@ input {
 
 textarea {
     width: 400px;
-    border: 2px solid rgb(153, 153, 173);
+    border: 2px solid rgb(111, 111, 134);
     text-align: center;
     resize: none;
 }
@@ -52,7 +52,7 @@ button {
     height: 35px;
     /* padding: 10px 0; */
     /* border-radius: 50px; */
-    background-color: rgb(0, 8, 255);
+    background-color: rgb(222, 189, 26);
     cursor: pointer;
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -70,7 +70,7 @@ button:hover {
 
 @media screen and (max-width:628px) {
     body {
-        background: lightpink;
+        background: rgb(255, 255, 255);
     }
 
     .form {
@@ -86,6 +86,10 @@ button:hover {
 
     button{
         width: 300px;
+    }
+
+    .title {
+        color: rgb(0, 0, 0);
     }
 
 }
