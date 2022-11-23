@@ -54,7 +54,7 @@ button {
     /* border-radius: 50px; */
     background-color: rgb(222, 189, 26);
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: bolder;
     border-style: none;
