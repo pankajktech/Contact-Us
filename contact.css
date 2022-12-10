@@ -79,11 +79,11 @@ button:hover {
 @media screen and (max-width:628px) {
     body {
         /* background: rgb(255, 255, 255); */
-        background-image: linear-gradient(102.4deg, rgba(253, 189, 85, 1) 7.8%, rgba(249, 131, 255, 1) 100.3%);
+        background-image: linear-gradient(102.4deg, rgb(200, 123, 1) 7.8%, rgb(170, 7, 179) 100.3%);
     }
 
     .form {
-        border: 2px solid rgb(91, 26, 222);
+        /* border: 2px solid rgb(91, 26, 222); */
         padding: none;
         background: none;
         box-shadow: none;
