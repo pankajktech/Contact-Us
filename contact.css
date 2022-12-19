@@ -6,8 +6,22 @@ body {
     scroll-behavior: smooth;
     font-family: 'Eczar', serif;
     /* background: linear-gradient(to right, purple, blue); */
-    background-image: linear-gradient(64.5deg, rgba(245, 116, 185, 1) 14.7%, rgba(89, 97, 223, 1) 88.7%);
+    /* background-image: linear-gradient(64.5deg, rgba(245, 116, 185, 1) 14.7%, rgba(89, 97, 223, 1) 88.7%); */
+/* background-color: rgb(81, 76, 70); */
 
+}
+
+body::before{
+    content: " ";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    /* left: 50%; */
+    z-index: -1;
+    background: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat center center/cover;
+    /* opacity: 0.5; */
+    filter: blur(5px);
 }
 
 .title {
@@ -24,9 +38,9 @@ body {
 
 .form {
     padding: 20px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    box-shadow: 5px 5px 5px, 5px 5px 5px black;
+    box-shadow: 0 0 5px 5px rgb(138, 123, 123);
 }
 
 .name {
@@ -56,7 +70,7 @@ textarea {
 
 button {
     margin: 20px 0;
-    width: 47vh;
+    width: 45vh;
     height: 35px;
     background-color: rgb(91, 26, 222);
     cursor: pointer;
@@ -78,9 +92,24 @@ button:hover {
 
 @media screen and (max-width:628px) {
     body {
+        /* height: 80vh; */
         /* background: rgb(255, 255, 255); */
-        background-image: linear-gradient(102.4deg, rgb(200, 123, 1) 7.8%, rgb(170, 7, 179) 100.3%);
+        /* background-image: linear-gradient(102.4deg, rgb(200, 123, 1) 7.8%, rgb(170, 7, 179) 100.3%); */
+       
     }
+    body::before{
+        content: " ";
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: absolute;
+        /* left: 50%; */
+        z-index: -1;
+        background: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat center center/cover;
+        /* opacity: 0.5; */
+        filter: blur(5px);
+    }
+    
 
     .form {
         /* border: 2px solid rgb(91, 26, 222); */
